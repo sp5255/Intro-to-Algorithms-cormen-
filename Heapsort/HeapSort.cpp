@@ -18,7 +18,6 @@ public:
     void show();
     int left(int);
     int right(int);
-
 };
 
 template <typename T>

@@ -63,7 +63,7 @@ void Graph::BFS(int s){
         visited[i] = false;
     }
 
-    // push  current vertex to the queue
+    // push  current vertex to the queue i.e, source
 
     q.push(s);
     visited[s] = true;
